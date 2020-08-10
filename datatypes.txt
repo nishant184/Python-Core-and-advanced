@@ -1,0 +1,8 @@
+Five types of data in python
+
+1.None type- object that does not contain any value
+2.Numeric type- int,float,complex
+3.Sequences- this type can hold on to sequence of data types for eg,
+             str,bytes,bytearray,list,tuple,range
+4.Sets- It does not allow duplicates
+5.Mappings

@@ -1,0 +1,8 @@
+Collections
+
+    1.List-list can store any number of values dynamically and maintains
+      the order of it
+
+    2.Set-Set does not allow duplicate values
+
+    3.Dictionary-Dictionary is a map it can be used to store key and values
