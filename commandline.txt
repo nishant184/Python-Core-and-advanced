@@ -1,0 +1,18 @@
+Command line arguments are those arguments that are when our python 
+programs runs for eg,python,myprogram.py.
+
+The main uses of command line programs could be passing in a  file location
+which we can dynamically locate  when the program is running instead
+of hardcoding allocation you can pass in a command line argument for 
+allocation.
+
+Similarly for database connection url passed in using a command line argument
+or it could be a remote ip address all this values can be passed by 
+command line argument
+
+This values are passed through a list called argv,this list will contain all
+the arguments that are passed in,and this list is inside the sys module in
+python,to access the elements we will use sys.argv,while sys is the module
+and argv is the list which contains all the arguments
+
+
