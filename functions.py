@@ -22,3 +22,19 @@ def calc(a,b):
     return x,y,z,u
 
 print(calc(5,4))
+
+#Function inside another function
+def display(name):
+    def message():
+        return "Hello "
+    result=message()+name
+    return result
+print(display("Nishant"))
+
+#Returning functions
+def display1():
+    def message1():
+        return "Hello "
+    return message1
+func1=display1()
+print(func1())
