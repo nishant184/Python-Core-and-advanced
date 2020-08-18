@@ -22,6 +22,16 @@ def num():
     return 5
 
 print(num())
+#Decorating strings
+def decorfun(fun):
+    def inner1(n):
+        result=fun(n)
+        result+=" how are you"
+        return result
+    return inner1
 
+@decorfun
+def hello(name):
+    return "hello "+name
 
-
+print(hello("Nishant"))
