@@ -1,0 +1,23 @@
+#OBJECT ORIENTED PROGRAMMING(OOP)
+
+This world is full of objects that work with each other or communicate with each other
+for eg,There are two person objects named by Nishant and Sumit,
+this objects will have traits or properties like age,weight and qualification
+and behavior like look() and speak() to each other.
+The object in this world will have Identity/name,properties/variables,functionality/behavior.
+Its use to replicate real world problems with object oriented programmming
+
+The 4 key object oriented principles are 
+Encapsulation
+Abstraction
+Inheritance
+Polymorphism
+
+
+#CLASSES
+Classes allows us to use our own data type ie. user defined data type
+it acts as a blue print for our objects
+A class represents a :
+                    variable(blue print)
+                    methods 
+for a particular object is defined
