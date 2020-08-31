@@ -81,3 +81,36 @@ print(s2.major)
 print(s1.name)
 print(s2.name)
 print(student.major)
+
+#Count the number of objects in a class
+class Objectcounter:
+    numberofobjects=0
+    
+    def __init__(self):
+        Objectcounter.numberofobjects+=1
+    
+    @staticmethod
+    def displaycount():
+        print(Objectcounter.numberofobjects)
+
+o1=Objectcounter()
+o2=Objectcounter()
+
+Objectcounter.displaycount()
+
+#Creating a inner class
+#Create a class called car which will have inner class called engine
+class Car:
+    def __init__(self,make,year):
+        self.make=make
+        self.year=year
+
+    class Engine:
+        def __init__(self,number):
+            self.number=number
+        def start(self):
+            print("Engine started")
+
+c=Car("BMW",2017)
+e=c.Engine(123)
+e.start()
