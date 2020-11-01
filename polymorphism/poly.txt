@@ -1,0 +1,7 @@
+In polymorphism poly means multi and morphism means shape and in case of OOP
+shapes is replaced with behavior
+Different ways which we can implement polymorphism
+1.Duck taping
+2.using duck typing to do dependency injection
+3. + operator
+4. method overriding

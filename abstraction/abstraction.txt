@@ -1,0 +1,5 @@
+Using abstract classes and interfaces we can define a contract for our child classes
+,if we have a class called BMW and if we define an abstract method .
+We implement abstract classes using a class called ABC for abstract class it is 
+from abc module.Interfaces are also abstract classes
+
