@@ -1,0 +1,19 @@
+Exception will cause three things :
+    1.Abnormal termination of a program
+    2.Informal/UnFriendly information to the end user
+    3.Improper shutdown of resources
+
+We need to handle exceptions in order for this three not to happen in out application.
+Exception is a class .There are inbuilt exceptions we can use in our application as 
+well as we can define an exception(user defined exception).
+
+Syntax :
+    try :
+        Code that might raise an exception
+    except ZeroDivisionError:
+
+
+If the code in the try block raises an exception then control will go to the
+except block.
+Try and except can also have a else block which will be executed if the exception is 
+noy raised.And finally block it will be executed no matter if there is a exception or not

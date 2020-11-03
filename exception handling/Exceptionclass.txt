@@ -1,0 +1,23 @@
+                            Base Excpetion ->parent Exception
+
+ 
+                            Exception class(Exception class is inherited by
+                                            standar error and warning)
+
+            Standard error                                      Warning
+        
+examples of standard error are
+
+        EOFError -End of file error                             DeprecatedWarning-
+        If we try to read beyond the end of file                if we are using old version of an api
+        well get this error                                     
+
+        ZeroDivisionError-                                      ImportWarning-
+        If we try to divide a number by ZeroDivisionError       If we are not using the module that we have imported
+
+        indentationError-
+        if we use the incorrect indentation
+
+
+*Warning will not stop the program execution they will point you to the code
+*StandardErrors will terminate the program if we dont use them properly
