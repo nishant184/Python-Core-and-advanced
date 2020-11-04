@@ -1,0 +1,29 @@
+Files are where we store our data
+    This data coubld be text data or  binary data  like images,video or audio files etc
+
+Syntax:
+        f=open("filename","mode","buffer")
+        open method is used to return a file object 
+        filename - name of the file 
+        mode - mode can be read,write,append
+        buffer - optional parameter which is a number which is used to intelligently do
+        buffering
+        
+        once we are done with our work we need to close the file 
+        f.close()
+
+modes:
+    w - wite to a file,if a file already has some contents then that content will be 
+    deleted and it will show our contents
+    r - read mode is used to read the file from the begining
+    a - append is use to combine the  Files
+    w+ - is for write and read
+    r+ - is for read write append
+    a+ - is for appending and reading
+    x - is for exclusive creation mode once you open a file in this mode a new file will
+        be created for you exclusively if the file already exists with the same name
+        then it will show error
+   wb - is for binary files all the above mode is for text files wb is for binary 
+   rb,ab,a+b,r+b,w+b
+
+   

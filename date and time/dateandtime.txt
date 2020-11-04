@@ -1,0 +1,7 @@
+In computer languages we have a concept of epoch which is the start of time in seconds.
+Using epoch we can calculate the given date and time.
+Using ctime() function from the time module or using the datatime() function
+in the date time module.
+We can also push our program in a temporary sleep using sleep() function in
+the date time module 
+perf_counter() - is used to check how long our program is taking to execute

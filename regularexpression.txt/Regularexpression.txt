@@ -1,0 +1,26 @@
+Regular expression is a bunch of character or patterns that we create. 
+Regular expression is used to  validate 
+email_id, password that this particular pattern should be followed. 
+Or
+to search for a string within a given string using the pattern we designed. 
+
+re module is used  for regular expression in Python below are the functions 
+match
+search
+findall
+split
+sub-(substitute) which will find the string which will exchange the string which we give
+
+Regular expression syntax define some special characters or sequence characters that
+we can use to match the single character in a string.all the sequence characters start
+for backward slash(\)
+for eg,
+1. \d - d stands for any digit from 0 to 9
+2. \D - which matches any non-digit characters
+3. \s - which matches for white space 
+4. \S - which matches any non-white space
+5. \w - for any alpha numeric value
+6. \W - which any non-alpha numeric character
+7. \b - is space around words
+8. \A - matches only at the start of the string
+9. \Z - matches only at the end of the string
